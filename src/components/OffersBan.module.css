@@ -1,0 +1,10 @@
+
+.offers_banner{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #c9a84c;
+    color: black;
+    font-size: small;
+}
+

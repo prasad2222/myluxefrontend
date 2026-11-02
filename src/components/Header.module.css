@@ -1,0 +1,116 @@
+.header {
+  background-color: #1a1a2e;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+/* Left */
+.logo h1 {
+  color: white;
+  font-size: 32px;
+}
+
+.logo span {
+  color: #c9a84c;
+}
+
+/* Center */
+.centerSection {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex: 1;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  color: #808080;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: white;
+}
+
+/* Search */
+.searchBar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 250px;
+  border-color: #666;
+}
+
+.searchBar input {
+  border: none;
+  outline: none;
+  background: transparent;
+  color:#666;
+  flex: 1;
+  font-size: 14px;
+}
+
+.searchBar svg {
+  cursor: pointer;
+  color: #666;
+}
+
+/* Right */
+.icons {
+  display: flex;
+  gap: 20px;
+  color: #eef1ee;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.icons svg:hover {
+  color: white;
+}
+
+.iconWrapper {
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: -6px;
+  right: -8px;
+  background: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+
+.icons a {
+  color: #2f4f4f; /* green */
+  text-decoration: none;
+}
+
+.icons a:visited {
+  color: #2f4f4f; /* prevent violet */
+}
+
+.icons svg:hover {
+  color: #2f4f4f; /* hover green */
+}
+
+.empty svg {
+  color: transparent;
+  stroke: white;
+  stroke-width: 40; /* adjust based on icon size */
+}

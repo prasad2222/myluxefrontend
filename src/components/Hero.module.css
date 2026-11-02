@@ -1,0 +1,87 @@
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #111827, #1a1a2e);
+  color: white;
+  padding: 0 60px;
+  overflow: hidden;         /* important */
+}
+
+.left_content {
+  flex: 1;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.right_content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 50%;
+  overflow: hidden;         /* important */
+}
+
+.right_content img {
+  width: 100%;
+  max-width: 520px;         /* control image size */
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.left_content h1 {
+  font-size: 62px;
+  line-height: 1.1;
+  margin: 0;
+}
+
+.left_content h4 {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #d1d5db;
+  margin: 0;
+}
+
+.capsule {
+  background: #c9a84c;
+  color: black;
+  padding: 10px 18px;
+  border-radius: 30px;
+  width: fit-content;
+  font-weight: bold;
+}
+
+.button_group {
+  display: flex;
+  gap: 16px;
+}
+
+.primary_btn {
+  background: #c9a84c;
+  color: black;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.secondary_btn {
+  background: transparent;
+  color: white;
+  border: 1px solid #ffffff40;
+  padding: 14px 28px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+/* remove full page horizontal scroll */
+body {
+  overflow-x: hidden;
+}
